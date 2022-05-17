@@ -58,5 +58,5 @@ To start, the code is broken out by contributor. For example code written by Tim
 Project Code
 --------------------------------------
 
-The code for the final project
+The code for the final project should be stored under "group code".
 
