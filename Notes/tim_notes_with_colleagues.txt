@@ -1,0 +1,6 @@
+reduce the problem using gps coordinate
+dbscan package
+
+Now instead of having a large cartesian product space
+
+dbscan can determine the number of clusters
