@@ -40,19 +40,20 @@ Data Description
 The data presented here comprises over one-and-a-half million place entries for hundreds of thousands of commercial Points-of-Interest (POIs) around the globe. Your task is to determine which place entries describe the same point-of-interest. Though the data entries may represent or resemble entries for real places, they may also contain artificial information or additional noise.
 
 ## Training Data
-* train.csv - The training set, comprising eleven attribute fields for over one million place entries, together with:
- * id - A unique identifier for each entry.
- * point_of_interest - An identifier for the POI the entry represents. There may be one or many entries describing the same POI. Two entries "match" when they describe a common POI.
-* pairs.csv - A pregenerated set of pairs of place entries from train.csv designed to improve detection of matches. You may wish to generate additional pairs to improve your model's ability to discriminate POIs.
- * match - Whether (True or False) the pair of entries describes a common POI.
+* `train.csv` - The training set, comprising eleven attribute fields for over one million place entries, together with:  
+`id` - A unique identifier for each entry.  
+`point_of_interest` - An identifier for the POI the entry represents. There may be one or many entries describing the same POI. Two entries "match" when they describe a common POI.
+               
+ * `pairs.csv` - A pregenerated set of pairs of place entries from train.csv designed to improve detection of matches. You may wish to generate additional pairs to improve your model's ability to discriminate POIs.  
+`match` - Whether (True or False) the pair of entries describes a common POI.
  
 ## Example Test Data
 To help you author submission code, we include a few example instances selected from the test set. When you submit your notebook for scoring, this example data will be replaced by the actual test data. The actual test set has approximately 600,000 place entries with POIs that are distinct from the POIs in the training set.
-
-* test.csv - A set of place entries with their recorded attribute fields, similar to the training set.
-* sample_submission.csv - A sample submission file in the correct format.
- * id - The unique identifier for a place entry, one for each entry in the test set.
- * matches - A space delimited list of IDs for entries in the test set matching the given ID. Place entries always self-match.
+  
+* `test.csv` - A set of place entries with their recorded attribute fields, similar to the training set.  
+* `sample_submission.csv` - A sample submission file in the correct format.  
+`id` - The unique identifier for a place entry, one for each entry in the test set.  
+`matches` - A space delimited list of IDs for entries in the test set matching the given ID. Place entries always self-match.
 
 
 Structure:
