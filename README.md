@@ -74,5 +74,5 @@ To start, the code is broken out by contributor. For example code written by Tim
 Project Code
 --------------------------------------
 
-The code for the final project should be stored under "group code".
+The code for the final project should be stored under "group_code". The exploratory data analysis and data engineering code can be found in "4square-eda2.0.ipynb" and the  modeling code can be found in "Final_Modeling.ipynb". The data used for modeling can be found under "./data_curated/pairs_us_diffs.csv".
 
